@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+5dea239cbc5639c6977939e96553e9a3 CMakeFiles/simple_snake_qt_autogen
+f6833ea906cd75ea743aa996c8bc3349 Libraries/game/CMakeFiles/game_autogen
+15502fac40f84b9b0578b08637131ab8 Libraries/helpfield/CMakeFiles/helpfield_autogen
+6a19406246cd6cf0c12a97071f12a2a7 Libraries/mainwindow/CMakeFiles/mainwindow_autogen

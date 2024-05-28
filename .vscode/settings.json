@@ -44,6 +44,8 @@
         "unordered_map": "cpp",
         "variant": "cpp",
         "vector": "cpp",
-        "iterator": "cpp"
+        "iterator": "cpp",
+        "bitset": "cpp",
+        "istream": "cpp"
     }
 }

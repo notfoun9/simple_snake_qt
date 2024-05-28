@@ -68,6 +68,7 @@ public:
     void GameOver();
 
     void IncScore() noexcept;
+    
     std::unique_ptr<Food> food;
 protected:
     void paintEvent(QPaintEvent* e) override;
@@ -78,9 +79,9 @@ protected:
     void StartNewGame();
 
     std::unique_ptr<QTimer> moveSnakeTimer;
-    int fieldSize;
     std::unique_ptr<Snake> snake;
 
+    int fieldSize;
     bool isPaused = 0;
     int score = 0;
 signals:

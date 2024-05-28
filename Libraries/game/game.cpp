@@ -57,7 +57,7 @@ void Snake::Move() {
 }
 
 
-GameField::GameField() : moveSnakeTimer(new QTimer()){
+GameField::GameField() : moveSnakeTimer(std::make_unique<QTimer>()){
     setFixedSize(500, 500);
     setFocusPolicy(Qt::StrongFocus);
     
@@ -65,7 +65,6 @@ GameField::GameField() : moveSnakeTimer(new QTimer()){
     fieldSize = width() / snake->ItemSize();
 
     food = std::make_unique<Food>(this, snake->ItemSize());
-
     connect(moveSnakeTimer.get(), &QTimer::timeout, snake.get(), &Snake::Move);
     moveSnakeTimer->start(snake->GetMoveSpeed());
 }

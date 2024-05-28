@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhelpfield.a CMakeFiles/helpfield.dir/helpfield_autogen/mocs_compilation.cpp.o CMakeFiles/helpfield.dir/helpfield.cpp.o
+/usr/bin/ranlib libhelpfield.a

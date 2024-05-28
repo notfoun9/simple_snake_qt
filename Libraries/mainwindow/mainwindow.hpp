@@ -8,11 +8,10 @@ class MainWindow : public QMainWindow {
     Q_OBJECT
 public:
     MainWindow(QWidget* parent = nullptr);
-    ~MainWindow() {}
 
 private:
     std::shared_ptr<GameField> gameField;
-    HelpField* helpField;
-    QWidget* centralWidget;
-    QGridLayout* gridLayout;
+    std::unique_ptr<HelpField> helpField;
+    std::unique_ptr<QWidget> centralWidget;
+    std::unique_ptr<QGridLayout> gridLayout;
 } ;

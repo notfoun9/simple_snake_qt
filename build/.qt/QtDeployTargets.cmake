@@ -1,0 +1,1 @@
+set(__QT_DEPLOY_TARGET_simple_snake_qt_FILE /Users/maksim/simple_snake_qt/build/simple_snake_qt.app/Contents/MacOS/simple_snake_qt)
