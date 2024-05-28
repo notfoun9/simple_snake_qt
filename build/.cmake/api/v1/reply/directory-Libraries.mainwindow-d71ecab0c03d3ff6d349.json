@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"Libraries/mainwindow/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"Libraries/mainwindow/libmainwindow.a"
+			],
+			"targetId" : "mainwindow::@c7cbf7638ef378ecaf70",
+			"targetIndex" : 5,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Libraries/mainwindow",
+		"source" : "Libraries/mainwindow"
+	}
+}

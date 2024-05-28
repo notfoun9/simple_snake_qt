@@ -16,7 +16,7 @@ void Snake::Draw(QPainter* painter) const {
     }
 }
 
-void Snake::MoveSnakeSlot() {
+void Snake::Move() {
     int x = snakeBody.front()->X();
     int y = snakeBody.front()->Y();
     int fSize = owner->FieldSize();
@@ -66,7 +66,7 @@ GameField::GameField() : moveSnakeTimer(new QTimer()){
 
     food = std::make_unique<Food>(this, snake->ItemSize());
 
-    connect(moveSnakeTimer.get(), &QTimer::timeout, snake.get(), &Snake::MoveSnakeSlot);
+    connect(moveSnakeTimer.get(), &QTimer::timeout, snake.get(), &Snake::Move);
     moveSnakeTimer->start(snake->GetMoveSpeed());
 }
 
@@ -144,7 +144,7 @@ void GameField::StartNewGame() {
     score = 0;
     isPaused = 0;
     
-    connect(moveSnakeTimer.get(), &QTimer::timeout, snake.get(), &Snake::MoveSnakeSlot);
+    connect(moveSnakeTimer.get(), &QTimer::timeout, snake.get(), &Snake::Move);
     moveSnakeTimer->start(snake->GetMoveSpeed());
     emit ChangeTextSignal("score : 0\nSPACE to stop");
 }
@@ -174,5 +174,10 @@ void Food::SpawnNew(const std::list<std::unique_ptr<SnakeItem>>& bannedSpots) {
 }
 
 void Food::Draw(QPainter* painter) const {
+    QColor red("red");
+    Qt::BrushStyle style = Qt::SolidPattern;
+    QBrush brush(red, style);
+    painter->setBrush(brush);
+    painter->setPen(Qt::NoPen);
     painter->drawEllipse(size * X(), size * Y(), size, size);
 }

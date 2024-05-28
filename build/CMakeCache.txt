@@ -27,6 +27,9 @@ CMAKE_BUILD_TYPE:STRING=
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
+//CXX compiler
+CMAKE_CXX_COMPILER:STRING=/usr/bin/g++
+
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
 
@@ -362,6 +365,8 @@ CMAKE_COMMAND:INTERNAL=/opt/homebrew/Cellar/cmake/3.27.7/bin/cmake
 CMAKE_CPACK_COMMAND:INTERNAL=/opt/homebrew/Cellar/cmake/3.27.7/bin/cpack
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/opt/homebrew/Cellar/cmake/3.27.7/bin/ctest
+//ADVANCED property for variable: CMAKE_CXX_COMPILER
+CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS
 CMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_DEBUG

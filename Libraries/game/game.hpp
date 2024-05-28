@@ -34,7 +34,6 @@ protected:
 
 
 class Snake : public QWidget{
-    Q_OBJECT
 public:
     Snake(GameField* owner);
 
@@ -46,6 +45,7 @@ public:
     void SetMoveSpeed(const int& s) { moveSpeed = s; }
 
     int ItemSize() const noexcept { return itemSize; }
+    void Move();
 
     bool moveBlocked = false;
 private:
@@ -56,8 +56,6 @@ private:
     int moveSpeed = 100;
     Direction dir = Direction::right;
     std::list<std::unique_ptr<SnakeItem>> snakeBody;
-public slots:
-    void MoveSnakeSlot();
 };
 
 

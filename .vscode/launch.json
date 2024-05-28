@@ -7,7 +7,7 @@
             "program": "${command:cmake.launchTargetPath}",
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
-            "visualizerFile": "/Users/maksim/Library/Application Support/Code/User/workspaceStorage/152e7eb6cf62fb1fec5bb6667bf82b76/tonka3000.qtvsctools/qt.natvis.xml",
+            "visualizerFile": "${command:qt-official.natvis}",
             "showDisplayString": true,
             "linux": {
                 "MIMode": "lldb",
@@ -24,6 +24,24 @@
                     }
                 ],
                 "MIMode": "lldb"
+            }
+        },
+        {
+            "name": "Debug Qt Application with lldb",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "./Users/maksim/simple_snake_qt/build/simple_snake_qt.app/Contents/MacOS/simple_snake_qt",
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "visualizerFile": "/Users/maksim/Library/Application Support/Code/User/workspaceStorage/152e7eb6cf62fb1fec5bb6667bf82b76/tonka3000.qtvsctools/qt.natvis.xml",
+            "showDisplayString": true,
+            "linux": {
+                "MIMode": "lldb",
+                "miDebuggerPath": "/usr/bin/lldb"
+            },
+            "osx": {
+                "MIMode": "lldb",
+                "miDebuggerPath": "/usr/bin/lldb"
             }
         }
     ]
