@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maksim/untitled2
+CMAKE_SOURCE_DIR = /Users/maksim/simple_snake_qt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maksim/untitled2/build
+CMAKE_BINARY_DIR = /Users/maksim/simple_snake_qt/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/maksim/untitled2/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/maksim/untitled2/build/CMakeFiles /Users/maksim/untitled2/build/main//CMakeFiles/progress.marks
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maksim/untitled2/build/CMakeFiles 0
+	cd /Users/maksim/simple_snake_qt/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/maksim/simple_snake_qt/build/CMakeFiles /Users/maksim/simple_snake_qt/build/main//CMakeFiles/progress.marks
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maksim/simple_snake_qt/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main/clean
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,17 +148,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main/preinstall
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main/preinstall
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/maksim/untitled2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/maksim/simple_snake_qt/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -184,6 +184,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/maksim/untitled2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/maksim/simple_snake_qt/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

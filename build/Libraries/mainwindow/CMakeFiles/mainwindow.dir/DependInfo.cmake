@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/maksim/untitled2/Libraries/mainwindow/mainwindow.cpp" "Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow.cpp.o" "gcc" "Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow.cpp.o.d"
-  "/Users/maksim/untitled2/build/Libraries/mainwindow/mainwindow_autogen/mocs_compilation.cpp" "Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.o" "gcc" "Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.o.d"
+  "/Users/maksim/simple_snake_qt/Libraries/mainwindow/mainwindow.cpp" "Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow.cpp.o" "gcc" "Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow.cpp.o.d"
+  "/Users/maksim/simple_snake_qt/build/Libraries/mainwindow/mainwindow_autogen/mocs_compilation.cpp" "Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.o" "gcc" "Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maksim/untitled2
+CMAKE_SOURCE_DIR = /Users/maksim/simple_snake_qt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maksim/untitled2/build
+CMAKE_BINARY_DIR = /Users/maksim/simple_snake_qt/build
 
 # Utility rule file for mainwindow_autogen.
 
@@ -67,8 +67,8 @@ include Libraries/mainwindow/CMakeFiles/mainwindow_autogen.dir/compiler_depend.m
 include Libraries/mainwindow/CMakeFiles/mainwindow_autogen.dir/progress.make
 
 Libraries/mainwindow/CMakeFiles/mainwindow_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/maksim/untitled2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target mainwindow"
-	cd /Users/maksim/untitled2/build/Libraries/mainwindow && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_autogen /Users/maksim/untitled2/build/Libraries/mainwindow/CMakeFiles/mainwindow_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/maksim/simple_snake_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target mainwindow"
+	cd /Users/maksim/simple_snake_qt/build/Libraries/mainwindow && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_autogen /Users/maksim/simple_snake_qt/build/Libraries/mainwindow/CMakeFiles/mainwindow_autogen.dir/AutogenInfo.json ""
 
 mainwindow_autogen: Libraries/mainwindow/CMakeFiles/mainwindow_autogen
 mainwindow_autogen: Libraries/mainwindow/CMakeFiles/mainwindow_autogen.dir/build.make
@@ -79,10 +79,10 @@ Libraries/mainwindow/CMakeFiles/mainwindow_autogen.dir/build: mainwindow_autogen
 .PHONY : Libraries/mainwindow/CMakeFiles/mainwindow_autogen.dir/build
 
 Libraries/mainwindow/CMakeFiles/mainwindow_autogen.dir/clean:
-	cd /Users/maksim/untitled2/build/Libraries/mainwindow && $(CMAKE_COMMAND) -P CMakeFiles/mainwindow_autogen.dir/cmake_clean.cmake
+	cd /Users/maksim/simple_snake_qt/build/Libraries/mainwindow && $(CMAKE_COMMAND) -P CMakeFiles/mainwindow_autogen.dir/cmake_clean.cmake
 .PHONY : Libraries/mainwindow/CMakeFiles/mainwindow_autogen.dir/clean
 
 Libraries/mainwindow/CMakeFiles/mainwindow_autogen.dir/depend:
-	cd /Users/maksim/untitled2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maksim/untitled2 /Users/maksim/untitled2/Libraries/mainwindow /Users/maksim/untitled2/build /Users/maksim/untitled2/build/Libraries/mainwindow /Users/maksim/untitled2/build/Libraries/mainwindow/CMakeFiles/mainwindow_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/maksim/simple_snake_qt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maksim/simple_snake_qt /Users/maksim/simple_snake_qt/Libraries/mainwindow /Users/maksim/simple_snake_qt/build /Users/maksim/simple_snake_qt/build/Libraries/mainwindow /Users/maksim/simple_snake_qt/build/Libraries/mainwindow/CMakeFiles/mainwindow_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : Libraries/mainwindow/CMakeFiles/mainwindow_autogen.dir/depend
 

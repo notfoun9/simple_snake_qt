@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maksim/untitled2
+CMAKE_SOURCE_DIR = /Users/maksim/simple_snake_qt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maksim/untitled2/build
+CMAKE_BINARY_DIR = /Users/maksim/simple_snake_qt/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maksim/untitled2/build/CMakeFiles /Users/maksim/untitled2/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maksim/simple_snake_qt/build/CMakeFiles /Users/maksim/simple_snake_qt/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maksim/untitled2/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maksim/simple_snake_qt/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -162,30 +162,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled2
+# Target rules for targets named simple_snake_qt
 
 # Build rule for target.
-untitled2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 untitled2
-.PHONY : untitled2
+simple_snake_qt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_snake_qt
+.PHONY : simple_snake_qt
 
 # fast build rule for target.
-untitled2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/build
-.PHONY : untitled2/fast
+simple_snake_qt/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_snake_qt.dir/build.make CMakeFiles/simple_snake_qt.dir/build
+.PHONY : simple_snake_qt/fast
 
 #=============================================================================
-# Target rules for targets named untitled2_autogen
+# Target rules for targets named simple_snake_qt_autogen
 
 # Build rule for target.
-untitled2_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 untitled2_autogen
-.PHONY : untitled2_autogen
+simple_snake_qt_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_snake_qt_autogen
+.PHONY : simple_snake_qt_autogen
 
 # fast build rule for target.
-untitled2_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2_autogen.dir/build.make CMakeFiles/untitled2_autogen.dir/build
-.PHONY : untitled2_autogen/fast
+simple_snake_qt_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_snake_qt_autogen.dir/build.make CMakeFiles/simple_snake_qt_autogen.dir/build
+.PHONY : simple_snake_qt_autogen/fast
 
 #=============================================================================
 # Target rules for targets named game
@@ -283,7 +283,7 @@ main/main.o: main/main.cpp.o
 
 # target to build an object file
 main/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/main/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_snake_qt.dir/build.make CMakeFiles/simple_snake_qt.dir/main/main.cpp.o
 .PHONY : main/main.cpp.o
 
 main/main.i: main/main.cpp.i
@@ -291,7 +291,7 @@ main/main.i: main/main.cpp.i
 
 # target to preprocess a source file
 main/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/main/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_snake_qt.dir/build.make CMakeFiles/simple_snake_qt.dir/main/main.cpp.i
 .PHONY : main/main.cpp.i
 
 main/main.s: main/main.cpp.s
@@ -299,32 +299,32 @@ main/main.s: main/main.cpp.s
 
 # target to generate assembly for a file
 main/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/main/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_snake_qt.dir/build.make CMakeFiles/simple_snake_qt.dir/main/main.cpp.s
 .PHONY : main/main.cpp.s
 
-untitled2_autogen/mocs_compilation.o: untitled2_autogen/mocs_compilation.cpp.o
-.PHONY : untitled2_autogen/mocs_compilation.o
+simple_snake_qt_autogen/mocs_compilation.o: simple_snake_qt_autogen/mocs_compilation.cpp.o
+.PHONY : simple_snake_qt_autogen/mocs_compilation.o
 
 # target to build an object file
-untitled2_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o
-.PHONY : untitled2_autogen/mocs_compilation.cpp.o
+simple_snake_qt_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_snake_qt.dir/build.make CMakeFiles/simple_snake_qt.dir/simple_snake_qt_autogen/mocs_compilation.cpp.o
+.PHONY : simple_snake_qt_autogen/mocs_compilation.cpp.o
 
-untitled2_autogen/mocs_compilation.i: untitled2_autogen/mocs_compilation.cpp.i
-.PHONY : untitled2_autogen/mocs_compilation.i
+simple_snake_qt_autogen/mocs_compilation.i: simple_snake_qt_autogen/mocs_compilation.cpp.i
+.PHONY : simple_snake_qt_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-untitled2_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.i
-.PHONY : untitled2_autogen/mocs_compilation.cpp.i
+simple_snake_qt_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_snake_qt.dir/build.make CMakeFiles/simple_snake_qt.dir/simple_snake_qt_autogen/mocs_compilation.cpp.i
+.PHONY : simple_snake_qt_autogen/mocs_compilation.cpp.i
 
-untitled2_autogen/mocs_compilation.s: untitled2_autogen/mocs_compilation.cpp.s
-.PHONY : untitled2_autogen/mocs_compilation.s
+simple_snake_qt_autogen/mocs_compilation.s: simple_snake_qt_autogen/mocs_compilation.cpp.s
+.PHONY : simple_snake_qt_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-untitled2_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.s
-.PHONY : untitled2_autogen/mocs_compilation.cpp.s
+simple_snake_qt_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_snake_qt.dir/build.make CMakeFiles/simple_snake_qt.dir/simple_snake_qt_autogen/mocs_compilation.cpp.s
+.PHONY : simple_snake_qt_autogen/mocs_compilation.cpp.s
 
 # Help Target
 help:
@@ -341,18 +341,18 @@ help:
 	@echo "... game_autogen"
 	@echo "... helpfield_autogen"
 	@echo "... mainwindow_autogen"
-	@echo "... untitled2_autogen"
+	@echo "... simple_snake_qt_autogen"
 	@echo "... game"
 	@echo "... headers"
 	@echo "... helpfield"
 	@echo "... mainwindow"
-	@echo "... untitled2"
+	@echo "... simple_snake_qt"
 	@echo "... main/main.o"
 	@echo "... main/main.i"
 	@echo "... main/main.s"
-	@echo "... untitled2_autogen/mocs_compilation.o"
-	@echo "... untitled2_autogen/mocs_compilation.i"
-	@echo "... untitled2_autogen/mocs_compilation.s"
+	@echo "... simple_snake_qt_autogen/mocs_compilation.o"
+	@echo "... simple_snake_qt_autogen/mocs_compilation.i"
+	@echo "... simple_snake_qt_autogen/mocs_compilation.s"
 .PHONY : help
 
 

@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maksim/untitled2
+CMAKE_SOURCE_DIR = /Users/maksim/simple_snake_qt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maksim/untitled2/build
+CMAKE_BINARY_DIR = /Users/maksim/simple_snake_qt/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/maksim/untitled2/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/maksim/untitled2/build/CMakeFiles /Users/maksim/untitled2/build/Libraries/game//CMakeFiles/progress.marks
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Libraries/game/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maksim/untitled2/build/CMakeFiles 0
+	cd /Users/maksim/simple_snake_qt/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/maksim/simple_snake_qt/build/CMakeFiles /Users/maksim/simple_snake_qt/build/Libraries/game//CMakeFiles/progress.marks
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Libraries/game/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maksim/simple_snake_qt/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Libraries/game/clean
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Libraries/game/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Libraries/game/preinstall
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Libraries/game/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Libraries/game/preinstall
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Libraries/game/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/maksim/untitled2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/maksim/simple_snake_qt/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Libraries/game/CMakeFiles/game.dir/rule:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Libraries/game/CMakeFiles/game.dir/rule
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Libraries/game/CMakeFiles/game.dir/rule
 .PHONY : Libraries/game/CMakeFiles/game.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ game: Libraries/game/CMakeFiles/game.dir/rule
 
 # fast build rule for target.
 game/fast:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f Libraries/game/CMakeFiles/game.dir/build.make Libraries/game/CMakeFiles/game.dir/build
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f Libraries/game/CMakeFiles/game.dir/build.make Libraries/game/CMakeFiles/game.dir/build
 .PHONY : game/fast
 
 # Convenience name for target.
 Libraries/game/CMakeFiles/game_autogen.dir/rule:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Libraries/game/CMakeFiles/game_autogen.dir/rule
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Libraries/game/CMakeFiles/game_autogen.dir/rule
 .PHONY : Libraries/game/CMakeFiles/game_autogen.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ game_autogen: Libraries/game/CMakeFiles/game_autogen.dir/rule
 
 # fast build rule for target.
 game_autogen/fast:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f Libraries/game/CMakeFiles/game_autogen.dir/build.make Libraries/game/CMakeFiles/game_autogen.dir/build
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f Libraries/game/CMakeFiles/game_autogen.dir/build.make Libraries/game/CMakeFiles/game_autogen.dir/build
 .PHONY : game_autogen/fast
 
 game.o: game.cpp.o
@@ -194,7 +194,7 @@ game.o: game.cpp.o
 
 # target to build an object file
 game.cpp.o:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f Libraries/game/CMakeFiles/game.dir/build.make Libraries/game/CMakeFiles/game.dir/game.cpp.o
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f Libraries/game/CMakeFiles/game.dir/build.make Libraries/game/CMakeFiles/game.dir/game.cpp.o
 .PHONY : game.cpp.o
 
 game.i: game.cpp.i
@@ -202,7 +202,7 @@ game.i: game.cpp.i
 
 # target to preprocess a source file
 game.cpp.i:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f Libraries/game/CMakeFiles/game.dir/build.make Libraries/game/CMakeFiles/game.dir/game.cpp.i
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f Libraries/game/CMakeFiles/game.dir/build.make Libraries/game/CMakeFiles/game.dir/game.cpp.i
 .PHONY : game.cpp.i
 
 game.s: game.cpp.s
@@ -210,7 +210,7 @@ game.s: game.cpp.s
 
 # target to generate assembly for a file
 game.cpp.s:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f Libraries/game/CMakeFiles/game.dir/build.make Libraries/game/CMakeFiles/game.dir/game.cpp.s
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f Libraries/game/CMakeFiles/game.dir/build.make Libraries/game/CMakeFiles/game.dir/game.cpp.s
 .PHONY : game.cpp.s
 
 game_autogen/mocs_compilation.o: game_autogen/mocs_compilation.cpp.o
@@ -218,7 +218,7 @@ game_autogen/mocs_compilation.o: game_autogen/mocs_compilation.cpp.o
 
 # target to build an object file
 game_autogen/mocs_compilation.cpp.o:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f Libraries/game/CMakeFiles/game.dir/build.make Libraries/game/CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.o
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f Libraries/game/CMakeFiles/game.dir/build.make Libraries/game/CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.o
 .PHONY : game_autogen/mocs_compilation.cpp.o
 
 game_autogen/mocs_compilation.i: game_autogen/mocs_compilation.cpp.i
@@ -226,7 +226,7 @@ game_autogen/mocs_compilation.i: game_autogen/mocs_compilation.cpp.i
 
 # target to preprocess a source file
 game_autogen/mocs_compilation.cpp.i:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f Libraries/game/CMakeFiles/game.dir/build.make Libraries/game/CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.i
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f Libraries/game/CMakeFiles/game.dir/build.make Libraries/game/CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.i
 .PHONY : game_autogen/mocs_compilation.cpp.i
 
 game_autogen/mocs_compilation.s: game_autogen/mocs_compilation.cpp.s
@@ -234,7 +234,7 @@ game_autogen/mocs_compilation.s: game_autogen/mocs_compilation.cpp.s
 
 # target to generate assembly for a file
 game_autogen/mocs_compilation.cpp.s:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f Libraries/game/CMakeFiles/game.dir/build.make Libraries/game/CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.s
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f Libraries/game/CMakeFiles/game.dir/build.make Libraries/game/CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.s
 .PHONY : game_autogen/mocs_compilation.cpp.s
 
 # Help Target
@@ -268,6 +268,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/maksim/untitled2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/maksim/simple_snake_qt/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

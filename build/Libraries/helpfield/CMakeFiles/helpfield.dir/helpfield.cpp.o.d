@@ -1,6 +1,6 @@
 Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield.cpp.o: \
-  /Users/maksim/untitled2/Libraries/helpfield/helpfield.cpp \
-  /Users/maksim/untitled2/Libraries/helpfield/../helpfield/helpfield.hpp \
+  /Users/maksim/simple_snake_qt/Libraries/helpfield/helpfield.cpp \
+  /Users/maksim/simple_snake_qt/Libraries/helpfield/../helpfield/helpfield.hpp \
   /opt/homebrew/include/QtGui/QPainter \
   /opt/homebrew/lib/QtGui.framework/Headers/qpainter.h \
   /opt/homebrew/include/QtGui/qtguiglobal.h \

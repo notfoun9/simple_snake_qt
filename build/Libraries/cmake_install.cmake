@@ -1,4 +1,4 @@
-# Install script for directory: /Users/maksim/untitled2/Libraries
+# Install script for directory: /Users/maksim/simple_snake_qt/Libraries
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/maksim/untitled2/build/Libraries/game/cmake_install.cmake")
-  include("/Users/maksim/untitled2/build/Libraries/headers/cmake_install.cmake")
-  include("/Users/maksim/untitled2/build/Libraries/helpfield/cmake_install.cmake")
-  include("/Users/maksim/untitled2/build/Libraries/mainwindow/cmake_install.cmake")
+  include("/Users/maksim/simple_snake_qt/build/Libraries/game/cmake_install.cmake")
+  include("/Users/maksim/simple_snake_qt/build/Libraries/headers/cmake_install.cmake")
+  include("/Users/maksim/simple_snake_qt/build/Libraries/helpfield/cmake_install.cmake")
+  include("/Users/maksim/simple_snake_qt/build/Libraries/mainwindow/cmake_install.cmake")
 
 endif()
 

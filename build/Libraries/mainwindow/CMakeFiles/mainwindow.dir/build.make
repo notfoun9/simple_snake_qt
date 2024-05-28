@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maksim/untitled2
+CMAKE_SOURCE_DIR = /Users/maksim/simple_snake_qt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maksim/untitled2/build
+CMAKE_BINARY_DIR = /Users/maksim/simple_snake_qt/build
 
 # Include any dependencies generated for this target.
 include Libraries/mainwindow/CMakeFiles/mainwindow.dir/depend.make
@@ -72,30 +72,30 @@ include Libraries/mainwindow/CMakeFiles/mainwindow.dir/flags.make
 Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.o: Libraries/mainwindow/CMakeFiles/mainwindow.dir/flags.make
 Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.o: Libraries/mainwindow/mainwindow_autogen/mocs_compilation.cpp
 Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.o: Libraries/mainwindow/CMakeFiles/mainwindow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maksim/untitled2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.o"
-	cd /Users/maksim/untitled2/build/Libraries/mainwindow && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.o -MF CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.o -c /Users/maksim/untitled2/build/Libraries/mainwindow/mainwindow_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maksim/simple_snake_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.o"
+	cd /Users/maksim/simple_snake_qt/build/Libraries/mainwindow && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.o -MF CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.o -c /Users/maksim/simple_snake_qt/build/Libraries/mainwindow/mainwindow_autogen/mocs_compilation.cpp
 
 Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.i"
-	cd /Users/maksim/untitled2/build/Libraries/mainwindow && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maksim/untitled2/build/Libraries/mainwindow/mainwindow_autogen/mocs_compilation.cpp > CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.i
+	cd /Users/maksim/simple_snake_qt/build/Libraries/mainwindow && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maksim/simple_snake_qt/build/Libraries/mainwindow/mainwindow_autogen/mocs_compilation.cpp > CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.i
 
 Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.s"
-	cd /Users/maksim/untitled2/build/Libraries/mainwindow && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maksim/untitled2/build/Libraries/mainwindow/mainwindow_autogen/mocs_compilation.cpp -o CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.s
+	cd /Users/maksim/simple_snake_qt/build/Libraries/mainwindow && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maksim/simple_snake_qt/build/Libraries/mainwindow/mainwindow_autogen/mocs_compilation.cpp -o CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.s
 
 Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow.cpp.o: Libraries/mainwindow/CMakeFiles/mainwindow.dir/flags.make
-Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow.cpp.o: /Users/maksim/untitled2/Libraries/mainwindow/mainwindow.cpp
+Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow.cpp.o: /Users/maksim/simple_snake_qt/Libraries/mainwindow/mainwindow.cpp
 Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow.cpp.o: Libraries/mainwindow/CMakeFiles/mainwindow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maksim/untitled2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow.cpp.o"
-	cd /Users/maksim/untitled2/build/Libraries/mainwindow && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow.cpp.o -MF CMakeFiles/mainwindow.dir/mainwindow.cpp.o.d -o CMakeFiles/mainwindow.dir/mainwindow.cpp.o -c /Users/maksim/untitled2/Libraries/mainwindow/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maksim/simple_snake_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow.cpp.o"
+	cd /Users/maksim/simple_snake_qt/build/Libraries/mainwindow && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow.cpp.o -MF CMakeFiles/mainwindow.dir/mainwindow.cpp.o.d -o CMakeFiles/mainwindow.dir/mainwindow.cpp.o -c /Users/maksim/simple_snake_qt/Libraries/mainwindow/mainwindow.cpp
 
 Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mainwindow.dir/mainwindow.cpp.i"
-	cd /Users/maksim/untitled2/build/Libraries/mainwindow && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maksim/untitled2/Libraries/mainwindow/mainwindow.cpp > CMakeFiles/mainwindow.dir/mainwindow.cpp.i
+	cd /Users/maksim/simple_snake_qt/build/Libraries/mainwindow && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maksim/simple_snake_qt/Libraries/mainwindow/mainwindow.cpp > CMakeFiles/mainwindow.dir/mainwindow.cpp.i
 
 Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mainwindow.dir/mainwindow.cpp.s"
-	cd /Users/maksim/untitled2/build/Libraries/mainwindow && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maksim/untitled2/Libraries/mainwindow/mainwindow.cpp -o CMakeFiles/mainwindow.dir/mainwindow.cpp.s
+	cd /Users/maksim/simple_snake_qt/build/Libraries/mainwindow && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maksim/simple_snake_qt/Libraries/mainwindow/mainwindow.cpp -o CMakeFiles/mainwindow.dir/mainwindow.cpp.s
 
 # Object files for target mainwindow
 mainwindow_OBJECTS = \
@@ -109,19 +109,19 @@ Libraries/mainwindow/libmainwindow.a: Libraries/mainwindow/CMakeFiles/mainwindow
 Libraries/mainwindow/libmainwindow.a: Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow.cpp.o
 Libraries/mainwindow/libmainwindow.a: Libraries/mainwindow/CMakeFiles/mainwindow.dir/build.make
 Libraries/mainwindow/libmainwindow.a: Libraries/mainwindow/CMakeFiles/mainwindow.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maksim/untitled2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libmainwindow.a"
-	cd /Users/maksim/untitled2/build/Libraries/mainwindow && $(CMAKE_COMMAND) -P CMakeFiles/mainwindow.dir/cmake_clean_target.cmake
-	cd /Users/maksim/untitled2/build/Libraries/mainwindow && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mainwindow.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maksim/simple_snake_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libmainwindow.a"
+	cd /Users/maksim/simple_snake_qt/build/Libraries/mainwindow && $(CMAKE_COMMAND) -P CMakeFiles/mainwindow.dir/cmake_clean_target.cmake
+	cd /Users/maksim/simple_snake_qt/build/Libraries/mainwindow && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mainwindow.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Libraries/mainwindow/CMakeFiles/mainwindow.dir/build: Libraries/mainwindow/libmainwindow.a
 .PHONY : Libraries/mainwindow/CMakeFiles/mainwindow.dir/build
 
 Libraries/mainwindow/CMakeFiles/mainwindow.dir/clean:
-	cd /Users/maksim/untitled2/build/Libraries/mainwindow && $(CMAKE_COMMAND) -P CMakeFiles/mainwindow.dir/cmake_clean.cmake
+	cd /Users/maksim/simple_snake_qt/build/Libraries/mainwindow && $(CMAKE_COMMAND) -P CMakeFiles/mainwindow.dir/cmake_clean.cmake
 .PHONY : Libraries/mainwindow/CMakeFiles/mainwindow.dir/clean
 
 Libraries/mainwindow/CMakeFiles/mainwindow.dir/depend:
-	cd /Users/maksim/untitled2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maksim/untitled2 /Users/maksim/untitled2/Libraries/mainwindow /Users/maksim/untitled2/build /Users/maksim/untitled2/build/Libraries/mainwindow /Users/maksim/untitled2/build/Libraries/mainwindow/CMakeFiles/mainwindow.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/maksim/simple_snake_qt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maksim/simple_snake_qt /Users/maksim/simple_snake_qt/Libraries/mainwindow /Users/maksim/simple_snake_qt/build /Users/maksim/simple_snake_qt/build/Libraries/mainwindow /Users/maksim/simple_snake_qt/build/Libraries/mainwindow/CMakeFiles/mainwindow.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : Libraries/mainwindow/CMakeFiles/mainwindow.dir/depend
 

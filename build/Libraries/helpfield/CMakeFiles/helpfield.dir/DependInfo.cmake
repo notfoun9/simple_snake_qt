@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/maksim/untitled2/Libraries/helpfield/helpfield.cpp" "Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield.cpp.o" "gcc" "Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield.cpp.o.d"
-  "/Users/maksim/untitled2/build/Libraries/helpfield/helpfield_autogen/mocs_compilation.cpp" "Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield_autogen/mocs_compilation.cpp.o" "gcc" "Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield_autogen/mocs_compilation.cpp.o.d"
+  "/Users/maksim/simple_snake_qt/Libraries/helpfield/helpfield.cpp" "Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield.cpp.o" "gcc" "Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield.cpp.o.d"
+  "/Users/maksim/simple_snake_qt/build/Libraries/helpfield/helpfield_autogen/mocs_compilation.cpp" "Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield_autogen/mocs_compilation.cpp.o" "gcc" "Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield_autogen/mocs_compilation.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

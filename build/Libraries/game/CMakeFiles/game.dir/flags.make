@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG
 
-CXX_INCLUDES = -I/Users/maksim/untitled2/build/Libraries/game/game_autogen/include -I/Users/maksim/untitled2/Libraries/game/.. -isystem /opt/homebrew/lib/QtGui.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/lib/QtCore.framework/Headers -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include
+CXX_INCLUDES = -I/Users/maksim/simple_snake_qt/build/Libraries/game/game_autogen/include -I/Users/maksim/simple_snake_qt/Libraries/game/.. -isystem /opt/homebrew/lib/QtGui.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/lib/QtCore.framework/Headers -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
 

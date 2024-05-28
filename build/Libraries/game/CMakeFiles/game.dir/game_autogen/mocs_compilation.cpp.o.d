@@ -1,7 +1,7 @@
 Libraries/game/CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.o: \
-  /Users/maksim/untitled2/build/Libraries/game/game_autogen/mocs_compilation.cpp \
-  /Users/maksim/untitled2/build/Libraries/game/game_autogen/EWIEGA46WW/moc_game.cpp \
-  /Users/maksim/untitled2/build/Libraries/game/game_autogen/EWIEGA46WW/../../../../../Libraries/game/game.hpp \
+  /Users/maksim/simple_snake_qt/build/Libraries/game/game_autogen/mocs_compilation.cpp \
+  /Users/maksim/simple_snake_qt/build/Libraries/game/game_autogen/EWIEGA46WW/moc_game.cpp \
+  /Users/maksim/simple_snake_qt/build/Libraries/game/game_autogen/EWIEGA46WW/../../../../../Libraries/game/game.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \
@@ -825,7 +825,7 @@ Libraries/game/CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cstdarg \
-  /Users/maksim/untitled2/Libraries/game/../headers/headers.hpp \
+  /Users/maksim/simple_snake_qt/Libraries/game/../headers/headers.hpp \
   /opt/homebrew/include/QtWidgets/QWidget \
   /opt/homebrew/include/QtWidgets/qwidget.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsglobal.h \

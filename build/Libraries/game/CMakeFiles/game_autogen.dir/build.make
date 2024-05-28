@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maksim/untitled2
+CMAKE_SOURCE_DIR = /Users/maksim/simple_snake_qt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maksim/untitled2/build
+CMAKE_BINARY_DIR = /Users/maksim/simple_snake_qt/build
 
 # Utility rule file for game_autogen.
 
@@ -67,8 +67,8 @@ include Libraries/game/CMakeFiles/game_autogen.dir/compiler_depend.make
 include Libraries/game/CMakeFiles/game_autogen.dir/progress.make
 
 Libraries/game/CMakeFiles/game_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/maksim/untitled2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target game"
-	cd /Users/maksim/untitled2/build/Libraries/game && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_autogen /Users/maksim/untitled2/build/Libraries/game/CMakeFiles/game_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/maksim/simple_snake_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target game"
+	cd /Users/maksim/simple_snake_qt/build/Libraries/game && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_autogen /Users/maksim/simple_snake_qt/build/Libraries/game/CMakeFiles/game_autogen.dir/AutogenInfo.json ""
 
 game_autogen: Libraries/game/CMakeFiles/game_autogen
 game_autogen: Libraries/game/CMakeFiles/game_autogen.dir/build.make
@@ -79,10 +79,10 @@ Libraries/game/CMakeFiles/game_autogen.dir/build: game_autogen
 .PHONY : Libraries/game/CMakeFiles/game_autogen.dir/build
 
 Libraries/game/CMakeFiles/game_autogen.dir/clean:
-	cd /Users/maksim/untitled2/build/Libraries/game && $(CMAKE_COMMAND) -P CMakeFiles/game_autogen.dir/cmake_clean.cmake
+	cd /Users/maksim/simple_snake_qt/build/Libraries/game && $(CMAKE_COMMAND) -P CMakeFiles/game_autogen.dir/cmake_clean.cmake
 .PHONY : Libraries/game/CMakeFiles/game_autogen.dir/clean
 
 Libraries/game/CMakeFiles/game_autogen.dir/depend:
-	cd /Users/maksim/untitled2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maksim/untitled2 /Users/maksim/untitled2/Libraries/game /Users/maksim/untitled2/build /Users/maksim/untitled2/build/Libraries/game /Users/maksim/untitled2/build/Libraries/game/CMakeFiles/game_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/maksim/simple_snake_qt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maksim/simple_snake_qt /Users/maksim/simple_snake_qt/Libraries/game /Users/maksim/simple_snake_qt/build /Users/maksim/simple_snake_qt/build/Libraries/game /Users/maksim/simple_snake_qt/build/Libraries/game/CMakeFiles/game_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : Libraries/game/CMakeFiles/game_autogen.dir/depend
 

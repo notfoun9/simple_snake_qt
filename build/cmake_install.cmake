@@ -1,4 +1,4 @@
-# Install script for directory: /Users/maksim/untitled2
+# Install script for directory: /Users/maksim/simple_snake_qt
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,20 +38,20 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/Users/maksim/untitled2/build/untitled2.app" USE_SOURCE_PERMISSIONS)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./untitled2.app/Contents/MacOS/untitled2" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./untitled2.app/Contents/MacOS/untitled2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/Users/maksim/simple_snake_qt/build/simple_snake_qt.app" USE_SOURCE_PERMISSIONS)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./simple_snake_qt.app/Contents/MacOS/simple_snake_qt" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./simple_snake_qt.app/Contents/MacOS/simple_snake_qt")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/opt/homebrew/lib"
       -add_rpath "@executable_path/../Frameworks"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./untitled2.app/Contents/MacOS/untitled2")
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./simple_snake_qt.app/Contents/MacOS/simple_snake_qt")
   endif()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/maksim/untitled2/build/main/cmake_install.cmake")
-  include("/Users/maksim/untitled2/build/Libraries/cmake_install.cmake")
+  include("/Users/maksim/simple_snake_qt/build/main/cmake_install.cmake")
+  include("/Users/maksim/simple_snake_qt/build/Libraries/cmake_install.cmake")
 
 endif()
 
@@ -63,5 +63,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/maksim/untitled2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/maksim/simple_snake_qt/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

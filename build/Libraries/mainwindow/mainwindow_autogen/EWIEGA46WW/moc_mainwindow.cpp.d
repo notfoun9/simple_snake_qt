@@ -1,5 +1,5 @@
-/Users/maksim/untitled2/build/Libraries/mainwindow/mainwindow_autogen/EWIEGA46WW/moc_mainwindow.cpp: /Users/maksim/untitled2/Libraries/mainwindow/mainwindow.hpp \
-  /Users/maksim/untitled2/build/Libraries/mainwindow/mainwindow_autogen/moc_predefs.h \
+/Users/maksim/simple_snake_qt/build/Libraries/mainwindow/mainwindow_autogen/EWIEGA46WW/moc_mainwindow.cpp: /Users/maksim/simple_snake_qt/Libraries/mainwindow/mainwindow.hpp \
+  /Users/maksim/simple_snake_qt/build/Libraries/mainwindow/mainwindow_autogen/moc_predefs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/AvailabilityInternal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -879,9 +879,9 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/xlocale/_time.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h \
-  /Users/maksim/untitled2/Libraries/game/game.hpp \
-  /Users/maksim/untitled2/Libraries/headers/headers.hpp \
-  /Users/maksim/untitled2/Libraries/helpfield/helpfield.hpp \
+  /Users/maksim/simple_snake_qt/Libraries/game/game.hpp \
+  /Users/maksim/simple_snake_qt/Libraries/headers/headers.hpp \
+  /Users/maksim/simple_snake_qt/Libraries/helpfield/helpfield.hpp \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtCore.framework/Versions/A/Headers/QList \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtCore.framework/Versions/A/Headers/QObject \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtCore.framework/Versions/A/Headers/QRandomGenerator \

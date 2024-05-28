@@ -1,25 +1,25 @@
 {
-	"BUILD_DIR" : "/Users/maksim/untitled2/build/Libraries/game/game_autogen",
-	"CMAKE_BINARY_DIR" : "/Users/maksim/untitled2/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/Users/maksim/untitled2/build/Libraries/game",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/maksim/untitled2/Libraries/game",
+	"BUILD_DIR" : "/Users/maksim/simple_snake_qt/build/Libraries/game/game_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/maksim/simple_snake_qt/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/maksim/simple_snake_qt/build/Libraries/game",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/maksim/simple_snake_qt/Libraries/game",
 	"CMAKE_EXECUTABLE" : "/opt/homebrew/Cellar/cmake/3.27.7/bin/cmake",
-	"CMAKE_LIST_FILES" : [ "/Users/maksim/untitled2/Libraries/game/CMakeLists.txt" ],
-	"CMAKE_SOURCE_DIR" : "/Users/maksim/untitled2",
+	"CMAKE_LIST_FILES" : [ "/Users/maksim/simple_snake_qt/Libraries/game/CMakeLists.txt" ],
+	"CMAKE_SOURCE_DIR" : "/Users/maksim/simple_snake_qt",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/Users/maksim/untitled2/Libraries/game/game.hpp",
+			"/Users/maksim/simple_snake_qt/Libraries/game/game.hpp",
 			"MU",
 			"EWIEGA46WW/moc_game.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/Users/maksim/untitled2/build/Libraries/game/game_autogen/include",
-	"MOC_COMPILATION_FILE" : "/Users/maksim/untitled2/build/Libraries/game/game_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/Users/maksim/simple_snake_qt/build/Libraries/game/game_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/maksim/simple_snake_qt/build/Libraries/game/game_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -30,7 +30,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/Users/maksim/untitled2/Libraries",
+		"/Users/maksim/simple_snake_qt/Libraries",
 		"/opt/homebrew/lib/QtGui.framework/Headers",
 		"/opt/homebrew/lib/QtGui.framework",
 		"/opt/homebrew/lib/QtCore.framework/Headers",
@@ -62,20 +62,20 @@
 		"-c",
 		"/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/Users/maksim/untitled2/build/Libraries/game/game_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/Users/maksim/simple_snake_qt/build/Libraries/game/game_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 8,
-	"PARSE_CACHE_FILE" : "/Users/maksim/untitled2/build/Libraries/game/CMakeFiles/game_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/Users/maksim/simple_snake_qt/build/Libraries/game/CMakeFiles/game_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/opt/homebrew/share/qt/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "/opt/homebrew/share/qt/libexec/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 7,
-	"SETTINGS_FILE" : "/Users/maksim/untitled2/build/Libraries/game/CMakeFiles/game_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/Users/maksim/simple_snake_qt/build/Libraries/game/CMakeFiles/game_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/Users/maksim/untitled2/Libraries/game/game.cpp", "MU", null ]
+		[ "/Users/maksim/simple_snake_qt/Libraries/game/game.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

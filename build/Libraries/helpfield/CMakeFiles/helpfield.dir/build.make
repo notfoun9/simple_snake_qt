@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maksim/untitled2
+CMAKE_SOURCE_DIR = /Users/maksim/simple_snake_qt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maksim/untitled2/build
+CMAKE_BINARY_DIR = /Users/maksim/simple_snake_qt/build
 
 # Include any dependencies generated for this target.
 include Libraries/helpfield/CMakeFiles/helpfield.dir/depend.make
@@ -72,30 +72,30 @@ include Libraries/helpfield/CMakeFiles/helpfield.dir/flags.make
 Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield_autogen/mocs_compilation.cpp.o: Libraries/helpfield/CMakeFiles/helpfield.dir/flags.make
 Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield_autogen/mocs_compilation.cpp.o: Libraries/helpfield/helpfield_autogen/mocs_compilation.cpp
 Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield_autogen/mocs_compilation.cpp.o: Libraries/helpfield/CMakeFiles/helpfield.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maksim/untitled2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield_autogen/mocs_compilation.cpp.o"
-	cd /Users/maksim/untitled2/build/Libraries/helpfield && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield_autogen/mocs_compilation.cpp.o -MF CMakeFiles/helpfield.dir/helpfield_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/helpfield.dir/helpfield_autogen/mocs_compilation.cpp.o -c /Users/maksim/untitled2/build/Libraries/helpfield/helpfield_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maksim/simple_snake_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield_autogen/mocs_compilation.cpp.o"
+	cd /Users/maksim/simple_snake_qt/build/Libraries/helpfield && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield_autogen/mocs_compilation.cpp.o -MF CMakeFiles/helpfield.dir/helpfield_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/helpfield.dir/helpfield_autogen/mocs_compilation.cpp.o -c /Users/maksim/simple_snake_qt/build/Libraries/helpfield/helpfield_autogen/mocs_compilation.cpp
 
 Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/helpfield.dir/helpfield_autogen/mocs_compilation.cpp.i"
-	cd /Users/maksim/untitled2/build/Libraries/helpfield && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maksim/untitled2/build/Libraries/helpfield/helpfield_autogen/mocs_compilation.cpp > CMakeFiles/helpfield.dir/helpfield_autogen/mocs_compilation.cpp.i
+	cd /Users/maksim/simple_snake_qt/build/Libraries/helpfield && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maksim/simple_snake_qt/build/Libraries/helpfield/helpfield_autogen/mocs_compilation.cpp > CMakeFiles/helpfield.dir/helpfield_autogen/mocs_compilation.cpp.i
 
 Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/helpfield.dir/helpfield_autogen/mocs_compilation.cpp.s"
-	cd /Users/maksim/untitled2/build/Libraries/helpfield && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maksim/untitled2/build/Libraries/helpfield/helpfield_autogen/mocs_compilation.cpp -o CMakeFiles/helpfield.dir/helpfield_autogen/mocs_compilation.cpp.s
+	cd /Users/maksim/simple_snake_qt/build/Libraries/helpfield && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maksim/simple_snake_qt/build/Libraries/helpfield/helpfield_autogen/mocs_compilation.cpp -o CMakeFiles/helpfield.dir/helpfield_autogen/mocs_compilation.cpp.s
 
 Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield.cpp.o: Libraries/helpfield/CMakeFiles/helpfield.dir/flags.make
-Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield.cpp.o: /Users/maksim/untitled2/Libraries/helpfield/helpfield.cpp
+Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield.cpp.o: /Users/maksim/simple_snake_qt/Libraries/helpfield/helpfield.cpp
 Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield.cpp.o: Libraries/helpfield/CMakeFiles/helpfield.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maksim/untitled2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield.cpp.o"
-	cd /Users/maksim/untitled2/build/Libraries/helpfield && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield.cpp.o -MF CMakeFiles/helpfield.dir/helpfield.cpp.o.d -o CMakeFiles/helpfield.dir/helpfield.cpp.o -c /Users/maksim/untitled2/Libraries/helpfield/helpfield.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maksim/simple_snake_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield.cpp.o"
+	cd /Users/maksim/simple_snake_qt/build/Libraries/helpfield && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield.cpp.o -MF CMakeFiles/helpfield.dir/helpfield.cpp.o.d -o CMakeFiles/helpfield.dir/helpfield.cpp.o -c /Users/maksim/simple_snake_qt/Libraries/helpfield/helpfield.cpp
 
 Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/helpfield.dir/helpfield.cpp.i"
-	cd /Users/maksim/untitled2/build/Libraries/helpfield && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maksim/untitled2/Libraries/helpfield/helpfield.cpp > CMakeFiles/helpfield.dir/helpfield.cpp.i
+	cd /Users/maksim/simple_snake_qt/build/Libraries/helpfield && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maksim/simple_snake_qt/Libraries/helpfield/helpfield.cpp > CMakeFiles/helpfield.dir/helpfield.cpp.i
 
 Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/helpfield.dir/helpfield.cpp.s"
-	cd /Users/maksim/untitled2/build/Libraries/helpfield && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maksim/untitled2/Libraries/helpfield/helpfield.cpp -o CMakeFiles/helpfield.dir/helpfield.cpp.s
+	cd /Users/maksim/simple_snake_qt/build/Libraries/helpfield && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maksim/simple_snake_qt/Libraries/helpfield/helpfield.cpp -o CMakeFiles/helpfield.dir/helpfield.cpp.s
 
 # Object files for target helpfield
 helpfield_OBJECTS = \
@@ -109,19 +109,19 @@ Libraries/helpfield/libhelpfield.a: Libraries/helpfield/CMakeFiles/helpfield.dir
 Libraries/helpfield/libhelpfield.a: Libraries/helpfield/CMakeFiles/helpfield.dir/helpfield.cpp.o
 Libraries/helpfield/libhelpfield.a: Libraries/helpfield/CMakeFiles/helpfield.dir/build.make
 Libraries/helpfield/libhelpfield.a: Libraries/helpfield/CMakeFiles/helpfield.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maksim/untitled2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libhelpfield.a"
-	cd /Users/maksim/untitled2/build/Libraries/helpfield && $(CMAKE_COMMAND) -P CMakeFiles/helpfield.dir/cmake_clean_target.cmake
-	cd /Users/maksim/untitled2/build/Libraries/helpfield && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/helpfield.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maksim/simple_snake_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libhelpfield.a"
+	cd /Users/maksim/simple_snake_qt/build/Libraries/helpfield && $(CMAKE_COMMAND) -P CMakeFiles/helpfield.dir/cmake_clean_target.cmake
+	cd /Users/maksim/simple_snake_qt/build/Libraries/helpfield && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/helpfield.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Libraries/helpfield/CMakeFiles/helpfield.dir/build: Libraries/helpfield/libhelpfield.a
 .PHONY : Libraries/helpfield/CMakeFiles/helpfield.dir/build
 
 Libraries/helpfield/CMakeFiles/helpfield.dir/clean:
-	cd /Users/maksim/untitled2/build/Libraries/helpfield && $(CMAKE_COMMAND) -P CMakeFiles/helpfield.dir/cmake_clean.cmake
+	cd /Users/maksim/simple_snake_qt/build/Libraries/helpfield && $(CMAKE_COMMAND) -P CMakeFiles/helpfield.dir/cmake_clean.cmake
 .PHONY : Libraries/helpfield/CMakeFiles/helpfield.dir/clean
 
 Libraries/helpfield/CMakeFiles/helpfield.dir/depend:
-	cd /Users/maksim/untitled2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maksim/untitled2 /Users/maksim/untitled2/Libraries/helpfield /Users/maksim/untitled2/build /Users/maksim/untitled2/build/Libraries/helpfield /Users/maksim/untitled2/build/Libraries/helpfield/CMakeFiles/helpfield.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/maksim/simple_snake_qt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maksim/simple_snake_qt /Users/maksim/simple_snake_qt/Libraries/helpfield /Users/maksim/simple_snake_qt/build /Users/maksim/simple_snake_qt/build/Libraries/helpfield /Users/maksim/simple_snake_qt/build/Libraries/helpfield/CMakeFiles/helpfield.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : Libraries/helpfield/CMakeFiles/helpfield.dir/depend
 

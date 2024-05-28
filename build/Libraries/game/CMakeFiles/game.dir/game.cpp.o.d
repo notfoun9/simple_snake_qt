@@ -1,6 +1,6 @@
 Libraries/game/CMakeFiles/game.dir/game.cpp.o: \
-  /Users/maksim/untitled2/Libraries/game/game.cpp \
-  /Users/maksim/untitled2/Libraries/game/../headers/headers.hpp \
+  /Users/maksim/simple_snake_qt/Libraries/game/game.cpp \
+  /Users/maksim/simple_snake_qt/Libraries/game/../headers/headers.hpp \
   /opt/homebrew/include/QtWidgets/QWidget \
   /opt/homebrew/include/QtWidgets/qwidget.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsglobal.h \
@@ -1088,7 +1088,7 @@ Libraries/game/CMakeFiles/game.dir/game.cpp.o: \
   /opt/homebrew/include/QtWidgets/QMainWindow \
   /opt/homebrew/include/QtWidgets/qmainwindow.h \
   /opt/homebrew/include/QtWidgets/qtabwidget.h \
-  /Users/maksim/untitled2/Libraries/game/../game/game.hpp \
+  /Users/maksim/simple_snake_qt/Libraries/game/../game/game.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/ostream \

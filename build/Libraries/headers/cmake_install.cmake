@@ -1,4 +1,4 @@
-# Install script for directory: /Users/maksim/untitled2/Libraries/headers
+# Install script for directory: /Users/maksim/simple_snake_qt/Libraries/headers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

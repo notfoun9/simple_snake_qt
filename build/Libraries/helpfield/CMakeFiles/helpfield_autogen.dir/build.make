@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maksim/untitled2
+CMAKE_SOURCE_DIR = /Users/maksim/simple_snake_qt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maksim/untitled2/build
+CMAKE_BINARY_DIR = /Users/maksim/simple_snake_qt/build
 
 # Utility rule file for helpfield_autogen.
 
@@ -67,8 +67,8 @@ include Libraries/helpfield/CMakeFiles/helpfield_autogen.dir/compiler_depend.mak
 include Libraries/helpfield/CMakeFiles/helpfield_autogen.dir/progress.make
 
 Libraries/helpfield/CMakeFiles/helpfield_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/maksim/untitled2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target helpfield"
-	cd /Users/maksim/untitled2/build/Libraries/helpfield && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_autogen /Users/maksim/untitled2/build/Libraries/helpfield/CMakeFiles/helpfield_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/maksim/simple_snake_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target helpfield"
+	cd /Users/maksim/simple_snake_qt/build/Libraries/helpfield && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_autogen /Users/maksim/simple_snake_qt/build/Libraries/helpfield/CMakeFiles/helpfield_autogen.dir/AutogenInfo.json ""
 
 helpfield_autogen: Libraries/helpfield/CMakeFiles/helpfield_autogen
 helpfield_autogen: Libraries/helpfield/CMakeFiles/helpfield_autogen.dir/build.make
@@ -79,10 +79,10 @@ Libraries/helpfield/CMakeFiles/helpfield_autogen.dir/build: helpfield_autogen
 .PHONY : Libraries/helpfield/CMakeFiles/helpfield_autogen.dir/build
 
 Libraries/helpfield/CMakeFiles/helpfield_autogen.dir/clean:
-	cd /Users/maksim/untitled2/build/Libraries/helpfield && $(CMAKE_COMMAND) -P CMakeFiles/helpfield_autogen.dir/cmake_clean.cmake
+	cd /Users/maksim/simple_snake_qt/build/Libraries/helpfield && $(CMAKE_COMMAND) -P CMakeFiles/helpfield_autogen.dir/cmake_clean.cmake
 .PHONY : Libraries/helpfield/CMakeFiles/helpfield_autogen.dir/clean
 
 Libraries/helpfield/CMakeFiles/helpfield_autogen.dir/depend:
-	cd /Users/maksim/untitled2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maksim/untitled2 /Users/maksim/untitled2/Libraries/helpfield /Users/maksim/untitled2/build /Users/maksim/untitled2/build/Libraries/helpfield /Users/maksim/untitled2/build/Libraries/helpfield/CMakeFiles/helpfield_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/maksim/simple_snake_qt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maksim/simple_snake_qt /Users/maksim/simple_snake_qt/Libraries/helpfield /Users/maksim/simple_snake_qt/build /Users/maksim/simple_snake_qt/build/Libraries/helpfield /Users/maksim/simple_snake_qt/build/Libraries/helpfield/CMakeFiles/helpfield_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : Libraries/helpfield/CMakeFiles/helpfield_autogen.dir/depend
 

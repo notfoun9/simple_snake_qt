@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maksim/untitled2
+CMAKE_SOURCE_DIR = /Users/maksim/simple_snake_qt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maksim/untitled2/build
+CMAKE_BINARY_DIR = /Users/maksim/simple_snake_qt/build
 
 # Utility rule file for headers.
 
@@ -74,10 +74,10 @@ Libraries/headers/CMakeFiles/headers.dir/build: headers
 .PHONY : Libraries/headers/CMakeFiles/headers.dir/build
 
 Libraries/headers/CMakeFiles/headers.dir/clean:
-	cd /Users/maksim/untitled2/build/Libraries/headers && $(CMAKE_COMMAND) -P CMakeFiles/headers.dir/cmake_clean.cmake
+	cd /Users/maksim/simple_snake_qt/build/Libraries/headers && $(CMAKE_COMMAND) -P CMakeFiles/headers.dir/cmake_clean.cmake
 .PHONY : Libraries/headers/CMakeFiles/headers.dir/clean
 
 Libraries/headers/CMakeFiles/headers.dir/depend:
-	cd /Users/maksim/untitled2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maksim/untitled2 /Users/maksim/untitled2/Libraries/headers /Users/maksim/untitled2/build /Users/maksim/untitled2/build/Libraries/headers /Users/maksim/untitled2/build/Libraries/headers/CMakeFiles/headers.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/maksim/simple_snake_qt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maksim/simple_snake_qt /Users/maksim/simple_snake_qt/Libraries/headers /Users/maksim/simple_snake_qt/build /Users/maksim/simple_snake_qt/build/Libraries/headers /Users/maksim/simple_snake_qt/build/Libraries/headers/CMakeFiles/headers.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : Libraries/headers/CMakeFiles/headers.dir/depend
 

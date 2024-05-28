@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maksim/untitled2
+CMAKE_SOURCE_DIR = /Users/maksim/simple_snake_qt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maksim/untitled2/build
+CMAKE_BINARY_DIR = /Users/maksim/simple_snake_qt/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/maksim/untitled2/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/maksim/untitled2/build/CMakeFiles /Users/maksim/untitled2/build/Libraries/mainwindow//CMakeFiles/progress.marks
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Libraries/mainwindow/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maksim/untitled2/build/CMakeFiles 0
+	cd /Users/maksim/simple_snake_qt/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/maksim/simple_snake_qt/build/CMakeFiles /Users/maksim/simple_snake_qt/build/Libraries/mainwindow//CMakeFiles/progress.marks
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Libraries/mainwindow/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maksim/simple_snake_qt/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Libraries/mainwindow/clean
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Libraries/mainwindow/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Libraries/mainwindow/preinstall
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Libraries/mainwindow/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Libraries/mainwindow/preinstall
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Libraries/mainwindow/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/maksim/untitled2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/maksim/simple_snake_qt/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Libraries/mainwindow/CMakeFiles/mainwindow.dir/rule:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Libraries/mainwindow/CMakeFiles/mainwindow.dir/rule
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Libraries/mainwindow/CMakeFiles/mainwindow.dir/rule
 .PHONY : Libraries/mainwindow/CMakeFiles/mainwindow.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ mainwindow: Libraries/mainwindow/CMakeFiles/mainwindow.dir/rule
 
 # fast build rule for target.
 mainwindow/fast:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f Libraries/mainwindow/CMakeFiles/mainwindow.dir/build.make Libraries/mainwindow/CMakeFiles/mainwindow.dir/build
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f Libraries/mainwindow/CMakeFiles/mainwindow.dir/build.make Libraries/mainwindow/CMakeFiles/mainwindow.dir/build
 .PHONY : mainwindow/fast
 
 # Convenience name for target.
 Libraries/mainwindow/CMakeFiles/mainwindow_autogen.dir/rule:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Libraries/mainwindow/CMakeFiles/mainwindow_autogen.dir/rule
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Libraries/mainwindow/CMakeFiles/mainwindow_autogen.dir/rule
 .PHONY : Libraries/mainwindow/CMakeFiles/mainwindow_autogen.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ mainwindow_autogen: Libraries/mainwindow/CMakeFiles/mainwindow_autogen.dir/rule
 
 # fast build rule for target.
 mainwindow_autogen/fast:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f Libraries/mainwindow/CMakeFiles/mainwindow_autogen.dir/build.make Libraries/mainwindow/CMakeFiles/mainwindow_autogen.dir/build
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f Libraries/mainwindow/CMakeFiles/mainwindow_autogen.dir/build.make Libraries/mainwindow/CMakeFiles/mainwindow_autogen.dir/build
 .PHONY : mainwindow_autogen/fast
 
 mainwindow.o: mainwindow.cpp.o
@@ -194,7 +194,7 @@ mainwindow.o: mainwindow.cpp.o
 
 # target to build an object file
 mainwindow.cpp.o:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f Libraries/mainwindow/CMakeFiles/mainwindow.dir/build.make Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow.cpp.o
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f Libraries/mainwindow/CMakeFiles/mainwindow.dir/build.make Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow.cpp.o
 .PHONY : mainwindow.cpp.o
 
 mainwindow.i: mainwindow.cpp.i
@@ -202,7 +202,7 @@ mainwindow.i: mainwindow.cpp.i
 
 # target to preprocess a source file
 mainwindow.cpp.i:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f Libraries/mainwindow/CMakeFiles/mainwindow.dir/build.make Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow.cpp.i
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f Libraries/mainwindow/CMakeFiles/mainwindow.dir/build.make Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow.cpp.i
 .PHONY : mainwindow.cpp.i
 
 mainwindow.s: mainwindow.cpp.s
@@ -210,7 +210,7 @@ mainwindow.s: mainwindow.cpp.s
 
 # target to generate assembly for a file
 mainwindow.cpp.s:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f Libraries/mainwindow/CMakeFiles/mainwindow.dir/build.make Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow.cpp.s
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f Libraries/mainwindow/CMakeFiles/mainwindow.dir/build.make Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
 mainwindow_autogen/mocs_compilation.o: mainwindow_autogen/mocs_compilation.cpp.o
@@ -218,7 +218,7 @@ mainwindow_autogen/mocs_compilation.o: mainwindow_autogen/mocs_compilation.cpp.o
 
 # target to build an object file
 mainwindow_autogen/mocs_compilation.cpp.o:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f Libraries/mainwindow/CMakeFiles/mainwindow.dir/build.make Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.o
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f Libraries/mainwindow/CMakeFiles/mainwindow.dir/build.make Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.o
 .PHONY : mainwindow_autogen/mocs_compilation.cpp.o
 
 mainwindow_autogen/mocs_compilation.i: mainwindow_autogen/mocs_compilation.cpp.i
@@ -226,7 +226,7 @@ mainwindow_autogen/mocs_compilation.i: mainwindow_autogen/mocs_compilation.cpp.i
 
 # target to preprocess a source file
 mainwindow_autogen/mocs_compilation.cpp.i:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f Libraries/mainwindow/CMakeFiles/mainwindow.dir/build.make Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.i
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f Libraries/mainwindow/CMakeFiles/mainwindow.dir/build.make Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.i
 .PHONY : mainwindow_autogen/mocs_compilation.cpp.i
 
 mainwindow_autogen/mocs_compilation.s: mainwindow_autogen/mocs_compilation.cpp.s
@@ -234,7 +234,7 @@ mainwindow_autogen/mocs_compilation.s: mainwindow_autogen/mocs_compilation.cpp.s
 
 # target to generate assembly for a file
 mainwindow_autogen/mocs_compilation.cpp.s:
-	cd /Users/maksim/untitled2/build && $(MAKE) $(MAKESILENT) -f Libraries/mainwindow/CMakeFiles/mainwindow.dir/build.make Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.s
+	cd /Users/maksim/simple_snake_qt/build && $(MAKE) $(MAKESILENT) -f Libraries/mainwindow/CMakeFiles/mainwindow.dir/build.make Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow_autogen/mocs_compilation.cpp.s
 .PHONY : mainwindow_autogen/mocs_compilation.cpp.s
 
 # Help Target
@@ -268,6 +268,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/maksim/untitled2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/maksim/simple_snake_qt/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

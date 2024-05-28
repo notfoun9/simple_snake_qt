@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maksim/untitled2
+CMAKE_SOURCE_DIR = /Users/maksim/simple_snake_qt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maksim/untitled2/build
+CMAKE_BINARY_DIR = /Users/maksim/simple_snake_qt/build
 
 # Include any dependencies generated for this target.
 include Libraries/game/CMakeFiles/game.dir/depend.make
@@ -72,30 +72,30 @@ include Libraries/game/CMakeFiles/game.dir/flags.make
 Libraries/game/CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.o: Libraries/game/CMakeFiles/game.dir/flags.make
 Libraries/game/CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.o: Libraries/game/game_autogen/mocs_compilation.cpp
 Libraries/game/CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.o: Libraries/game/CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maksim/untitled2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Libraries/game/CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.o"
-	cd /Users/maksim/untitled2/build/Libraries/game && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Libraries/game/CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.o -MF CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.o -c /Users/maksim/untitled2/build/Libraries/game/game_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maksim/simple_snake_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Libraries/game/CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.o"
+	cd /Users/maksim/simple_snake_qt/build/Libraries/game && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Libraries/game/CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.o -MF CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.o -c /Users/maksim/simple_snake_qt/build/Libraries/game/game_autogen/mocs_compilation.cpp
 
 Libraries/game/CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.i"
-	cd /Users/maksim/untitled2/build/Libraries/game && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maksim/untitled2/build/Libraries/game/game_autogen/mocs_compilation.cpp > CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.i
+	cd /Users/maksim/simple_snake_qt/build/Libraries/game && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maksim/simple_snake_qt/build/Libraries/game/game_autogen/mocs_compilation.cpp > CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.i
 
 Libraries/game/CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.s"
-	cd /Users/maksim/untitled2/build/Libraries/game && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maksim/untitled2/build/Libraries/game/game_autogen/mocs_compilation.cpp -o CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.s
+	cd /Users/maksim/simple_snake_qt/build/Libraries/game && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maksim/simple_snake_qt/build/Libraries/game/game_autogen/mocs_compilation.cpp -o CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.s
 
 Libraries/game/CMakeFiles/game.dir/game.cpp.o: Libraries/game/CMakeFiles/game.dir/flags.make
-Libraries/game/CMakeFiles/game.dir/game.cpp.o: /Users/maksim/untitled2/Libraries/game/game.cpp
+Libraries/game/CMakeFiles/game.dir/game.cpp.o: /Users/maksim/simple_snake_qt/Libraries/game/game.cpp
 Libraries/game/CMakeFiles/game.dir/game.cpp.o: Libraries/game/CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maksim/untitled2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Libraries/game/CMakeFiles/game.dir/game.cpp.o"
-	cd /Users/maksim/untitled2/build/Libraries/game && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Libraries/game/CMakeFiles/game.dir/game.cpp.o -MF CMakeFiles/game.dir/game.cpp.o.d -o CMakeFiles/game.dir/game.cpp.o -c /Users/maksim/untitled2/Libraries/game/game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maksim/simple_snake_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Libraries/game/CMakeFiles/game.dir/game.cpp.o"
+	cd /Users/maksim/simple_snake_qt/build/Libraries/game && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Libraries/game/CMakeFiles/game.dir/game.cpp.o -MF CMakeFiles/game.dir/game.cpp.o.d -o CMakeFiles/game.dir/game.cpp.o -c /Users/maksim/simple_snake_qt/Libraries/game/game.cpp
 
 Libraries/game/CMakeFiles/game.dir/game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/game.cpp.i"
-	cd /Users/maksim/untitled2/build/Libraries/game && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maksim/untitled2/Libraries/game/game.cpp > CMakeFiles/game.dir/game.cpp.i
+	cd /Users/maksim/simple_snake_qt/build/Libraries/game && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maksim/simple_snake_qt/Libraries/game/game.cpp > CMakeFiles/game.dir/game.cpp.i
 
 Libraries/game/CMakeFiles/game.dir/game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/game.cpp.s"
-	cd /Users/maksim/untitled2/build/Libraries/game && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maksim/untitled2/Libraries/game/game.cpp -o CMakeFiles/game.dir/game.cpp.s
+	cd /Users/maksim/simple_snake_qt/build/Libraries/game && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maksim/simple_snake_qt/Libraries/game/game.cpp -o CMakeFiles/game.dir/game.cpp.s
 
 # Object files for target game
 game_OBJECTS = \
@@ -109,19 +109,19 @@ Libraries/game/libgame.a: Libraries/game/CMakeFiles/game.dir/game_autogen/mocs_c
 Libraries/game/libgame.a: Libraries/game/CMakeFiles/game.dir/game.cpp.o
 Libraries/game/libgame.a: Libraries/game/CMakeFiles/game.dir/build.make
 Libraries/game/libgame.a: Libraries/game/CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maksim/untitled2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libgame.a"
-	cd /Users/maksim/untitled2/build/Libraries/game && $(CMAKE_COMMAND) -P CMakeFiles/game.dir/cmake_clean_target.cmake
-	cd /Users/maksim/untitled2/build/Libraries/game && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maksim/simple_snake_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libgame.a"
+	cd /Users/maksim/simple_snake_qt/build/Libraries/game && $(CMAKE_COMMAND) -P CMakeFiles/game.dir/cmake_clean_target.cmake
+	cd /Users/maksim/simple_snake_qt/build/Libraries/game && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Libraries/game/CMakeFiles/game.dir/build: Libraries/game/libgame.a
 .PHONY : Libraries/game/CMakeFiles/game.dir/build
 
 Libraries/game/CMakeFiles/game.dir/clean:
-	cd /Users/maksim/untitled2/build/Libraries/game && $(CMAKE_COMMAND) -P CMakeFiles/game.dir/cmake_clean.cmake
+	cd /Users/maksim/simple_snake_qt/build/Libraries/game && $(CMAKE_COMMAND) -P CMakeFiles/game.dir/cmake_clean.cmake
 .PHONY : Libraries/game/CMakeFiles/game.dir/clean
 
 Libraries/game/CMakeFiles/game.dir/depend:
-	cd /Users/maksim/untitled2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maksim/untitled2 /Users/maksim/untitled2/Libraries/game /Users/maksim/untitled2/build /Users/maksim/untitled2/build/Libraries/game /Users/maksim/untitled2/build/Libraries/game/CMakeFiles/game.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/maksim/simple_snake_qt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maksim/simple_snake_qt /Users/maksim/simple_snake_qt/Libraries/game /Users/maksim/simple_snake_qt/build /Users/maksim/simple_snake_qt/build/Libraries/game /Users/maksim/simple_snake_qt/build/Libraries/game/CMakeFiles/game.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : Libraries/game/CMakeFiles/game.dir/depend
 

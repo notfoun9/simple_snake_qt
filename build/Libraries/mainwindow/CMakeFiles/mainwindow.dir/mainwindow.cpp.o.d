@@ -1,7 +1,7 @@
 Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow.cpp.o: \
-  /Users/maksim/untitled2/Libraries/mainwindow/mainwindow.cpp \
-  /Users/maksim/untitled2/Libraries/mainwindow/../mainwindow/mainwindow.hpp \
-  /Users/maksim/untitled2/Libraries/mainwindow/../game/game.hpp \
+  /Users/maksim/simple_snake_qt/Libraries/mainwindow/mainwindow.cpp \
+  /Users/maksim/simple_snake_qt/Libraries/mainwindow/../mainwindow/mainwindow.hpp \
+  /Users/maksim/simple_snake_qt/Libraries/mainwindow/../game/game.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \
@@ -825,7 +825,7 @@ Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cstdarg \
-  /Users/maksim/untitled2/Libraries/mainwindow/../headers/headers.hpp \
+  /Users/maksim/simple_snake_qt/Libraries/mainwindow/../headers/headers.hpp \
   /opt/homebrew/include/QtWidgets/QWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsglobal.h \
@@ -1159,6 +1159,6 @@ Libraries/mainwindow/CMakeFiles/mainwindow.dir/mainwindow.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__random/seed_seq.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__random/student_t_distribution.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__random/weibull_distribution.h \
-  /Users/maksim/untitled2/Libraries/mainwindow/../helpfield/helpfield.hpp \
+  /Users/maksim/simple_snake_qt/Libraries/mainwindow/../helpfield/helpfield.hpp \
   /opt/homebrew/include/QtWidgets/QGridLayout \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qgridlayout.h

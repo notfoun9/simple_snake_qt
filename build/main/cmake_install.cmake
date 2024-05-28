@@ -1,4 +1,4 @@
-# Install script for directory: /Users/maksim/untitled2/main
+# Install script for directory: /Users/maksim/simple_snake_qt/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
