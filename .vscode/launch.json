@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "Debug Qt Application with lldb",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${command:cmake.launchTargetPath}",
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "visualizerFile": "/Users/maksim/Library/Application Support/Code/User/workspaceStorage/152e7eb6cf62fb1fec5bb6667bf82b76/tonka3000.qtvsctools/qt.natvis.xml",
+            "showDisplayString": true,
+            "linux": {
+                "MIMode": "lldb",
+                "miDebuggerPath": "/usr/bin/lldb"
+            },
+            "osx": {
+                "MIMode": "lldb"
+            },
+            "windows": {
+                "environment": [
+                    {
+                        "name": "PATH",
+                        "value": "${env:PATH};${command:qt-official.kitDirectory}${/}bin"
+                    }
+                ],
+                "MIMode": "lldb"
+            }
+        }
+    ]
+}
