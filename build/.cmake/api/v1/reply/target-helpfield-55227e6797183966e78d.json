@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Libraries/mainwindow/libmainwindow.a"
+			"path" : "Libraries/helpfield/libhelpfield.a"
 		}
 	],
 	"backtrace" : 1,
@@ -18,7 +18,7 @@
 		],
 		"files" : 
 		[
-			"Libraries/mainwindow/CMakeLists.txt"
+			"Libraries/helpfield/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -84,7 +84,7 @@
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "/opt/homebrew/lib/QtWidgets.framework"
+					"path" : "/opt/homebrew/lib/QtGui.framework"
 				},
 				{
 					"backtrace" : 3,
@@ -94,31 +94,23 @@
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "/opt/homebrew/lib/QtGui.framework"
+					"path" : "/opt/homebrew/lib/QtWidgets.framework"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 0,
-					"path" : "/Users/maksim/simple_snake_qt/build/Libraries/mainwindow/mainwindow_autogen/include"
+					"path" : "/Users/maksim/simple_snake_qt/build/Libraries/helpfield/helpfield_autogen/include"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/maksim/simple_snake_qt/Libraries/mainwindow/.."
-				},
-				{
-					"backtrace" : 3,
-					"path" : "/Users/maksim/simple_snake_qt/Libraries/headers/.."
-				},
-				{
-					"backtrace" : 3,
 					"path" : "/Users/maksim/simple_snake_qt/Libraries/helpfield/.."
 				},
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "/opt/homebrew/lib/QtWidgets.framework/Headers"
+					"path" : "/opt/homebrew/lib/QtGui.framework/Headers"
 				},
 				{
 					"backtrace" : 3,
@@ -138,7 +130,12 @@
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "/opt/homebrew/lib/QtGui.framework/Headers"
+					"path" : "/usr/local/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/lib/QtWidgets.framework/Headers"
 				}
 			],
 			"language" : "CXX",
@@ -161,19 +158,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 3,
-			"id" : "headers::@b672ece23df8b0b854d7"
-		},
-		{
-			"backtrace" : 3,
-			"id" : "helpfield::@045bd33b1e509bc95752"
-		},
-		{
 			"backtrace" : 0,
-			"id" : "mainwindow_autogen::@c7cbf7638ef378ecaf70"
+			"id" : "helpfield_autogen::@045bd33b1e509bc95752"
 		}
 	],
-	"id" : "mainwindow::@c7cbf7638ef378ecaf70",
+	"id" : "helpfield::@045bd33b1e509bc95752",
 	"install" : 
 	{
 		"destinations" : 
@@ -188,12 +177,12 @@
 			"path" : "/usr/local"
 		}
 	},
-	"name" : "mainwindow",
-	"nameOnDisk" : "libmainwindow.a",
+	"name" : "helpfield",
+	"nameOnDisk" : "libhelpfield.a",
 	"paths" : 
 	{
-		"build" : "Libraries/mainwindow",
-		"source" : "Libraries/mainwindow"
+		"build" : "Libraries/helpfield",
+		"source" : "Libraries/helpfield"
 	},
 	"sourceGroups" : 
 	[
@@ -219,18 +208,18 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/Libraries/mainwindow/mainwindow_autogen/mocs_compilation.cpp",
+			"path" : "build/Libraries/helpfield/helpfield_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Libraries/mainwindow/mainwindow.cpp",
+			"path" : "Libraries/helpfield/helpfield.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Libraries/mainwindow/mainwindow.hpp",
+			"path" : "Libraries/helpfield/helpfield.hpp",
 			"sourceGroupIndex" : 1
 		}
 	],

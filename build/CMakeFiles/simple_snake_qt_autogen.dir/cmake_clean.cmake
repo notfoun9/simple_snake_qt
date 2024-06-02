@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/simple_snake_qt_autogen"
-  "simple_snake_qt_autogen/include/main/ui_mainwindow.h"
   "simple_snake_qt_autogen/mocs_compilation.cpp"
 )
 

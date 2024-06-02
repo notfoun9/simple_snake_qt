@@ -12,7 +12,7 @@
 						2
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-2617e10131235c286225.json",
+					"jsonFile" : "directory-.-8b49ecc5cd24510b5fd2.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -156,7 +156,7 @@
 				{
 					"directoryIndex" : 3,
 					"id" : "game::@099bcd863ccdebebf6b8",
-					"jsonFile" : "target-game-effadcc5a99a9cb6d667.json",
+					"jsonFile" : "target-game-a7f0ab673ba1bfb94cd5.json",
 					"name" : "game",
 					"projectIndex" : 0
 				},
@@ -177,7 +177,7 @@
 				{
 					"directoryIndex" : 5,
 					"id" : "helpfield::@045bd33b1e509bc95752",
-					"jsonFile" : "target-helpfield-48068f69dd6d1221bc72.json",
+					"jsonFile" : "target-helpfield-55227e6797183966e78d.json",
 					"name" : "helpfield",
 					"projectIndex" : 0
 				},
@@ -191,7 +191,7 @@
 				{
 					"directoryIndex" : 6,
 					"id" : "mainwindow::@c7cbf7638ef378ecaf70",
-					"jsonFile" : "target-mainwindow-f036b5dcf85c49a7321a.json",
+					"jsonFile" : "target-mainwindow-63d50168b2f989657fcf.json",
 					"name" : "mainwindow",
 					"projectIndex" : 0
 				},
@@ -205,7 +205,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "simple_snake_qt::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-simple_snake_qt-b89aa70e920bb0872706.json",
+					"jsonFile" : "target-simple_snake_qt-5006de52992e1bb5c94f.json",
 					"name" : "simple_snake_qt",
 					"projectIndex" : 0
 				},

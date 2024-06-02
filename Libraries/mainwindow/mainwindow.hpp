@@ -12,6 +12,6 @@ public:
 private:
     std::shared_ptr<GameField> gameField;
     std::unique_ptr<HelpField> helpField;
-    std::unique_ptr<QWidget> centralWidget;
+    QWidget* centralWidget;
     std::unique_ptr<QGridLayout> gridLayout;
 } ;

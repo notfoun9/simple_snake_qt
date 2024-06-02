@@ -37,6 +37,7 @@
 		"/opt/homebrew/lib/QtCore.framework",
 		"/opt/homebrew/share/qt/mkspecs/macx-clang",
 		"/opt/homebrew/include",
+		"/usr/local/include",
 		"/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1",
 		"/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include",
 		"/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include",

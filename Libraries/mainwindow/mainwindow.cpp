@@ -8,11 +8,11 @@ MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent) {
 
     connect(gameField.get(), &GameField::ChangeTextSignal, helpField.get(), &HelpField::ChangeTextSlot);
 
-    centralWidget = std::make_unique<QWidget>();
+    centralWidget = new QWidget;
     gridLayout = std::make_unique<QGridLayout>();
     gridLayout->addWidget(gameField.get(), 0, 0);
     gridLayout->addWidget(helpField.get(), 1, 0);
 
     centralWidget->setLayout(gridLayout.get());
-    setCentralWidget(centralWidget.get());
+    setCentralWidget(centralWidget);
 }

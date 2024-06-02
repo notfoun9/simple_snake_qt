@@ -1418,6 +1418,18 @@
 			"value" : "[ON][v()]"
 		},
 		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_WrapVulkanHeaders",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding WrapVulkanHeaders"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/usr/local/include][v()]"
+		},
+		{
 			"name" : "HAVE_STDATOMIC",
 			"properties" : 
 			[
@@ -5979,7 +5991,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE-NOTFOUND"
+			"value" : "/usr/local/bin/glslangValidator"
 		},
 		{
 			"name" : "Vulkan_GLSLC_EXECUTABLE",
@@ -5995,7 +6007,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "Vulkan_GLSLC_EXECUTABLE-NOTFOUND"
+			"value" : "/usr/local/bin/glslc"
 		},
 		{
 			"name" : "Vulkan_INCLUDE_DIR",
@@ -6011,7 +6023,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "Vulkan_INCLUDE_DIR-NOTFOUND"
+			"value" : "/usr/local/include"
 		},
 		{
 			"name" : "Vulkan_LIBRARY",
@@ -6027,7 +6039,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "Vulkan_LIBRARY-NOTFOUND"
+			"value" : "/usr/local/lib/libvulkan.dylib"
 		},
 		{
 			"name" : "WrapOpenGL_AGL",

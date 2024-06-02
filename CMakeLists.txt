@@ -16,7 +16,6 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
 set(PROJECT_SOURCES
     main/main.cpp
-    main/mainwindow.ui
 )
 
 qt_add_executable(simple_snake_qt

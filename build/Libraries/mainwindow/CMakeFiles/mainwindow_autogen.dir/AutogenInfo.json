@@ -41,6 +41,7 @@
 		"/opt/homebrew/include",
 		"/opt/homebrew/lib/QtGui.framework/Headers",
 		"/opt/homebrew/lib/QtGui.framework",
+		"/usr/local/include",
 		"/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1",
 		"/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include",
 		"/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include",
