@@ -6,7 +6,9 @@
 #include <QtGui/QKeyEvent>
 #include <QtCore/QTimer>
 #include <QtCore/QRandomGenerator>
+#include <queue>
 #include <list>
+#include <stack>
 #include <memory>
 
 enum class Direction {
@@ -24,6 +26,7 @@ class Food;
 class SnakeItem {
 public:
     SnakeItem(const int& x, const int& y);
+    virtual ~SnakeItem() {}
 
     inline int X() const noexcept{ return x; }
     inline int Y() const noexcept{ return y; }
@@ -39,22 +42,24 @@ public:
 
     void Draw(QPainter* painter) const;
 
-    Direction GetDir() { return dir; }
-    void SetDir(Direction d) { dir = d; }
+    Direction GetDir() { return dirQueue.front(); }
+    Direction GetLastDir() { return dirQueue.back(); }
+    void AddDir(Direction d) { dirQueue.push(d); }
+    
     int GetMoveSpeed() { return moveSpeed; }
     void SetMoveSpeed(const int& s) { moveSpeed = s; }
 
     int ItemSize() const noexcept { return itemSize; }
     void Move();
 
-    bool moveBlocked = false;
 private:
     GameField* owner;
 
     int startSize = 4;
     int itemSize = 20;
     int moveSpeed = 100;
-    Direction dir = Direction::right;
+
+    std::queue<Direction> dirQueue;
     std::list<std::unique_ptr<SnakeItem>> snakeBody;
 };
 
@@ -68,7 +73,6 @@ public:
     void GameOver();
 
     void IncScore() noexcept;
-    
     std::unique_ptr<Food> food;
 protected:
     void paintEvent(QPaintEvent* e) override;
@@ -79,9 +83,9 @@ protected:
     void StartNewGame();
 
     std::unique_ptr<QTimer> moveSnakeTimer;
+    int fieldSize;
     std::unique_ptr<Snake> snake;
 
-    int fieldSize;
     bool isPaused = 0;
     int score = 0;
 signals:

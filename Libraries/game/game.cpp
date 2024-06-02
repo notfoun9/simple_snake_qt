@@ -8,6 +8,7 @@ Snake::Snake(GameField* gf) : owner(gf) {
     for (int i = 0; i != startSize; ++i) {
         snakeBody.push_front(std::make_unique<SnakeItem>(i, 0));
     }
+    dirQueue.push(Direction::right);
 }
 
 void Snake::Draw(QPainter* painter) const {
@@ -21,6 +22,7 @@ void Snake::Move() {
     int y = snakeBody.front()->Y();
     int fSize = owner->FieldSize();
     
+    auto dir = dirQueue.front();
     if (dir == Direction::up) {
         y -= 1;
         if (y < 0) y = fSize - 1;
@@ -36,6 +38,10 @@ void Snake::Move() {
     else {
         x -= 1;
         if (x < 0) x = fSize - 1;
+    }
+
+    if (dirQueue.size() > 1) {
+        dirQueue.pop();
     }
 
     if (x == owner->food->X() && y == owner->food->Y()) {
@@ -57,7 +63,7 @@ void Snake::Move() {
 }
 
 
-GameField::GameField() : moveSnakeTimer(std::make_unique<QTimer>()){
+GameField::GameField() : moveSnakeTimer(new QTimer()){
     setFixedSize(500, 500);
     setFocusPolicy(Qt::StrongFocus);
     
@@ -65,6 +71,7 @@ GameField::GameField() : moveSnakeTimer(std::make_unique<QTimer>()){
     fieldSize = width() / snake->ItemSize();
 
     food = std::make_unique<Food>(this, snake->ItemSize());
+
     connect(moveSnakeTimer.get(), &QTimer::timeout, snake.get(), &Snake::Move);
     moveSnakeTimer->start(snake->GetMoveSpeed());
 }
@@ -83,12 +90,11 @@ void GameField::paintEvent(QPaintEvent* e) {
     food->Draw(&painter);
 
     painter.end();
-    snake->moveBlocked = false;
 }
 
 void GameField::keyPressEvent(QKeyEvent* e) {
     auto k = e->key();
-    auto dir = snake->GetDir();
+    auto lastInput = snake->GetLastDir();
 
     if (k == Qt::Key_Space) {
         if (isGameOver) {
@@ -102,23 +108,18 @@ void GameField::keyPressEvent(QKeyEvent* e) {
         emit ChangeTextSignal(text);
     }
     
-    if (snake->moveBlocked) return;
     
-    if (k == Qt::Key_Left && dir != Direction::right) {
-        snake->SetDir(Direction::left);
-        snake->moveBlocked = true;
+    if (k == Qt::Key_A && lastInput != Direction::right) {
+        snake->AddDir(Direction::left);
     }
-    else if (k == Qt::Key_Right && dir != Direction::left) {
-        snake->SetDir(Direction::right);
-        snake->moveBlocked = true;
+    else if (k == Qt::Key_D && lastInput != Direction::left) {
+        snake->AddDir(Direction::right);
     }
-    else if (k == Qt::Key_Down && dir != Direction::up) {
-        snake->SetDir(Direction::down);
-        snake->moveBlocked = true;
+    else if (k == Qt::Key_S && lastInput != Direction::up) {
+        snake->AddDir(Direction::down);
     }
-    else if (k == Qt::Key_Up && dir != Direction::down) {
-        snake->SetDir(Direction::up);
-        snake->moveBlocked = true;
+    else if (k == Qt::Key_W && lastInput != Direction::down) {
+        snake->AddDir(Direction::up);
     }
 }
 
